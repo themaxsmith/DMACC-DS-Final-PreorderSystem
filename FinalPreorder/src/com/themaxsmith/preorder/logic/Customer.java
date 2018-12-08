@@ -2,7 +2,7 @@ package com.themaxsmith.preorder.logic;
 
 public class Customer {
 	private String name,address;
-	private Boolean isPickup;
+	private Boolean isPickup = false;
 	private int store;
 	
 	public Customer(String name, String address, Boolean isPickup, int store) {
